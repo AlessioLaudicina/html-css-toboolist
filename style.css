@@ -77,7 +77,7 @@ main{
 }
 
 .newtask{
-    padding-left: 30px;
+    padding-left: 50px;
     padding-top: 21px
     
     
@@ -88,11 +88,11 @@ main{
 }
 
 
-.check::before{
+.tick::before{
     content: '\2713';
-    height: 5px;
     border: 1px solid green;
     border-radius: 35%;
+
 }
 
 
@@ -110,12 +110,16 @@ main{
 
 }
 
+.check{
+    font-size: 20px;
+}
+
 .today{
-    padding-left: 30px;
-    padding-top: 21px
+    padding-left: 50px;
+    padding-top: 60px
 }
 
 .upcoming{
-    padding-left: 30px;
+    padding-left: 50px;
     padding-top: 21px
 }
