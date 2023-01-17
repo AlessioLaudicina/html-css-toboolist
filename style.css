@@ -11,7 +11,7 @@ body{
 
 header{
     background-color: #fff;
-    height: 55 px;
+    height: 75px;
     width: 100%;
     background-attachment: fixed;
 }
@@ -19,12 +19,17 @@ header{
 .title{
     display:inline-block;
     margin-bottom: 10px;
+    vertical-align: middle;
+    font-size: 40px;
 }
 
 .logo{
     display: inline-block;
-    padding-left: 10px;
-    padding-top: 10px;
+    padding-left: 6px;
+    padding-top: 8px;
+    height: 55px;
+    vertical-align: middle;
+
 }
 
 main{
@@ -42,6 +47,9 @@ main{
     width: 600px;
     height: 620px;
 }
+
+
+
 
 #button1{
     background-color:  rgb(59, 169, 255);
@@ -72,12 +80,13 @@ main{
     padding-top: 21px
     
 }
-
-
-
-.p-container{
-    display: inline-block;
+.title-container::before{
+    content: '\2713';
+    padding-right: 5px;
 }
+
+
+
 
 
 #buttonblu{
