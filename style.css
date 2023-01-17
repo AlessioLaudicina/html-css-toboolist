@@ -59,6 +59,7 @@ main{
     width: 70px;
     border-radius: 7px;
     border-width: 0px;
+    color: #fff;
 }
 
 #button2{
@@ -67,7 +68,7 @@ main{
     width: 80px;
     border-radius: 7px;
     border-width: 1px;
-
+    
 
 }
 
@@ -79,6 +80,7 @@ main{
     padding-left: 30px;
     padding-top: 21px
     
+    
 }
 .title-container::before{
     content: '\2713';
@@ -86,6 +88,12 @@ main{
 }
 
 
+.check::before{
+    content: '\2713';
+    height: 5px;
+    border: 1px solid green;
+    border-radius: 35%;
+}
 
 
 
@@ -98,6 +106,16 @@ main{
     border-radius: 25px;
     border-width: 0px;
     display: inline-block;
+    color: #fff;
 
 }
 
+.today{
+    padding-left: 30px;
+    padding-top: 21px
+}
+
+.upcoming{
+    padding-left: 30px;
+    padding-top: 21px
+}
