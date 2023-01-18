@@ -87,6 +87,24 @@ main{
 }
 
 
+.circlefalse::before{
+    content: '\2573';
+    display:inline-block;
+    padding-left: 4px
+}
+
+.circlefalse{
+    width: 23px;
+    height: 23px;
+    display:inline-block;
+    border: 1px solid red;
+    border-radius: 50%;
+    display: inline-block;
+    color: red;
+
+}
+
+
 .circle::before{
     content: '\2713';
     display:inline-block;
@@ -108,7 +126,7 @@ main{
 
 #buttonblu{
     background-color:  rgb(59, 169, 255);
-    margin-left: 30px;
+    margin-left: 7px;
     margin-top: 10px;
     height:30px;
     width: 70px;
@@ -121,7 +139,7 @@ main{
 
 #buttonpurple{
     background-color:  rgb(199, 59, 255);
-    margin-left: 30px;
+    margin-left: 7px;
     margin-top: 10px;
     height:30px;
     width: 70px;
@@ -134,7 +152,7 @@ main{
 
 #buttongreen{
     background-color:  rgb(59, 255, 65);
-    margin-left: 30px;
+    margin-left: 7px;
     margin-top: 10px;
     height:30px;
     width: 70px;
@@ -147,7 +165,7 @@ main{
 
 #buttongreen2{
     background-color:  rgb(21, 125, 25);
-    margin-left: 30px;
+    margin-left: 7px;
     margin-top: 10px;
     height:30px;
     width: 70px;
@@ -160,7 +178,7 @@ main{
 
 #buttonorange{
     background-color:  rgb(255, 169, 8);
-    margin-left: 30px;
+    margin-left: 7px;
     margin-top: 10px;
     height:30px;
     width: 70px;
@@ -173,7 +191,7 @@ main{
 
 #buttonpink{
     background-color:  rgb(255, 0, 170);
-    margin-left: 30px;
+    margin-left: 7px;
     margin-top: 10px;
     height:30px;
     width: 70px;
